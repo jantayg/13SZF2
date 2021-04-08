@@ -1,0 +1,16 @@
+import turtle
+ablak = turtle.Screen()
+ablak.setup(400,400)
+ablak.bgcolor('white')
+ablak.title("program_3")
+fred = turtle.Turtle()
+fred.left(45)
+fred.fd(100)
+fred.right(90)
+fred.fd(100)
+fred.right(45)
+fred.fd(141)
+for i in range(2):
+    fred.right(90)
+    fred.fd(141)
+ablak.exitonclick()
